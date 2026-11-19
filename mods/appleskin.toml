@@ -1,0 +1,24 @@
+id = "appleskin"
+kind = "mod"
+name = "AppleSkin"
+summary = "HUD de comida con saturación, agotamiento, previsualización y valores nutricionales."
+description = """
+AppleSkin añade mejoras visuales relacionadas con la alimentación en Minecraft sobre Horizon. Muestra la saturación y el agotamiento en la barra de comida, permite previsualizar lo que restaura el alimento que llevas en la mano y añade valores de hambre y saturación a las descripciones de los objetos, además de una estimación de la salud recuperada.
+
+Es un mod principalmente visual: no añade objetos ni cambia recetas. Esta versión es una adaptación para Horizon del proyecto AppleSkin de squeek502; el código original y esta adaptación se distribuyen bajo Unlicense.
+"""
+authors = ["Dinorap4009", "squeek502"]
+owners = ["redere1234"]
+license = "Unlicense"
+source = "https://github.com/redere1234/appleskin-horizon"
+icon = "icons/appleskin.png"
+categories = ["utility", "food"]
+tags = ["food", "hud", "saturation", "exhaustion", "horizon"]
+
+[[versions]]
+version = "3.0.3"
+published = "2026-11-19"
+game = "26.3"
+file = "https://github.com/redere1234/appleskin-horizon/releases/download/v3.0.3/appleskin-3.0.3.hmod"
+sha256 = "95e6ca88f5701ccb3690a2f1606902085079627f6a9e08527b988ec80f6c1fcb"
+changelog = "Primera publicación de AppleSkin para Horizon nightly."
